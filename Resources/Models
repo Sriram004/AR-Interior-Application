@@ -1,0 +1,22 @@
+
+This folder stores 3D assets (`.usdz` format) for use in the ARKit Interior Design Application.
+
+### 📦 Add the following models:
+- `chair.usdz`
+- `table.usdz`
+- `sofa.usdz`
+- `lamp.usdz`
+
+### 🔧 Instructions
+1. Drag and drop your `.usdz` files into this folder in Xcode.
+2. Ensure they are added to **Copy Bundle Resources** under:
+   > Xcode → Target → Build Phases → Copy Bundle Resources
+3. The file names must match the `modelName` strings in `FurnitureModel.swift`.
+
+### 🧪 Test Resources
+You can get free USDZ test models from:
+- Apple: [https://developer.apple.com/augmented-reality/quick-look/](https://developer.apple.com/augmented-reality/quick-look/)
+- Sketchfab + Reality Converter
+- Poly Pizza: [https://poly.pizza/](https://poly.pizza/)
+
+> ⚠️ Ensure the models are scaled appropriately for AR use and placed in `.usdz` format only.
